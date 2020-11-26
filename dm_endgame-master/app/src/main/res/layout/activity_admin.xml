@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black"
+        android:hint="pitanje"
+        android:id="@+id/pitanjeEditText"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@id/pitanjeEditText"
+        android:textColor="@android:color/black"
+        android:hint="tocan odgovor"
+        android:id="@+id/tocanOdgEditText"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tocanOdgEditText"
+        android:id="@+id/netocanOdgET1"
+        android:hint="Netocan odgovor 1"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="24dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/netocanOdgET1"
+        android:id="@+id/netocanOdgET2"
+        android:hint="Netocan odgovor 2"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/netocanOdgET2"
+        android:id="@+id/netocanOdgET3"
+        android:hint="Netocan odgovor 3"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/netocanOdgET3"
+        android:id="@+id/netocanOdgET4"
+        android:hint="Netocan odgovor 4"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/netocanOdgET4"
+        android:id="@+id/netocanOdgET5"
+        android:hint="Netocan odgovor 5"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/netocanOdgET5"
+        android:id="@+id/netocanOdgET6"
+        android:hint="Netocan odgovor 6"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/netocanOdgET6"
+        android:id="@+id/netocanOdgET7"
+        android:hint="Netocan odgovor 7"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/netocanOdgET7"
+        android:id="@+id/netocanOdgET8"
+        android:hint="Netocan odgovor 8"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/netocanOdgET8"
+        android:layout_marginTop="32dp"
+        android:text="Spremi"
+        android:id="@+id/spremiButtonPitanje"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:elevation="8dp"
+    android:outlineAmbientShadowColor="#00FFFFFF"
+    android:outlineSpotShadowColor="#00FFFFFF"
+    app:cardBackgroundColor="#00000000"
+    app:cardCornerRadius="32dp"
+    android:layout_gravity="center_horizontal"
+    app:layout_gravity="center_horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/home_card_background"
+        android:paddingHorizontal="8dp">
+
+
+        <ImageView
+            android:id="@+id/item_ispit_icon"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_margin="12dp"
+            android:contentDescription="@string/wou"
+            android:scaleType="centerCrop"
+            android:tag="image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/item_ispit_razina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Viša razina "
+            android:textColor="#fff"
+            android:layout_marginLeft="8dp"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/item_ispit_datum"
+            app:layout_constraintStart_toEndOf="@+id/item_ispit_icon"
+            app:layout_constraintTop_toTopOf="@+id/item_ispit_icon" />
+
+        <TextView
+            android:id="@+id/item_ispit_datum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="ljeto 2018/2019"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/item_ispit_icon"
+            app:layout_constraintStart_toStartOf="@+id/item_ispit_razina"
+            app:layout_constraintTop_toBottomOf="@+id/item_ispit_razina" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

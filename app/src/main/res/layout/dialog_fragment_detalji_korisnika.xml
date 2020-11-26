@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/dialogProfilna"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/profilna"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/avatar_female" />
+
+    <TextView
+        android:id="@+id/dialogUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialogProfilna"
+        android:layout_alignParentStart="true"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Username"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/dialogScore"
+        app:layout_constraintLeft_toRightOf="@id/dialogProfilna"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <TextView
+        android:id="@+id/dialogScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/dialogUsername"
+
+        android:fontFamily="@font/montserrat_medium_italic"
+        android:text="Score"
+        app:layout_constraintStart_toEndOf="@+id/dialogProfilna"
+        app:layout_constraintTop_toBottomOf="@+id/dialogUsername" />
+
+</RelativeLayout>

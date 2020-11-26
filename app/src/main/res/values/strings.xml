@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Drzavna Matura - Endgame</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pedro">Pedro</string>
+    <string name="pedro_pedro_gmail_com">pedro.pedro@gmail.com</string>
+    <string name="slika_profila">Slika Profila</string>
+    <string name="shop">Shop</string>
+    <string name="options">Options</string>
+    <string name="buy_premium">Buy Premium</string>
+    <string name="sadrzaj">sadrzaj</string>
+    <string name="arrow_next">Arrow Next</string>
+    <string name="arrow_back">Arrow Back</string>
+    <string name="finish">FINISH</string>
+    <string name="default_pic">Default Pic</string>
+    <string name="wou">Wou</string>
+    <string name="textview">TextView</string>
+    <string name="profilna">Profilna</string>
+    <string name="slika_pitanja">slika_pitanja</string>
+    <string name="skripta_hrv_a">Skripta Hrvatski A</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="vidi_nodgovor">VIDI\nODGOVOR</string>
+    <string name="odgovor">ODGOVOR</string>
+    <string name="more">more</string>
+    <string-array name="menu_list">
+        <item>Novosti</item>
+        <item>Rasprava</item>
+    </string-array>
+
+</resources>

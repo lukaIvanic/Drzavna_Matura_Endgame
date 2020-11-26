@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/selected_lekcija_name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="96dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Cijeli brojevi ili nesto"
+        android:textColor="#434343"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/izbor_toni_milun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selected_lekcija_name_textview"
+        android:layout_margin="8dp"
+        android:layout_alignLeft="@id/selected_lekcija_name_textview"
+        android:layout_marginLeft="8dp"
+        android:text="Toni genda" />
+
+    <TextView
+        android:id="@+id/izbor_edutorij_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Edutorij"
+        android:layout_below="@id/izbor_toni_milun"
+        android:layout_alignLeft="@id/izbor_toni_milun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/izbor_toni_milun"
+        app:layout_constraintTop_toBottomOf="@+id/izbor_toni_milun" />
+    <View
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/selected_lekcija_name_textview"
+        android:layout_width="168dp"
+        android:layout_height="0dp"/>
+</RelativeLayout>

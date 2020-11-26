@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/poz2"
+    tools:context=".GameDirectory.GameActivity2">
+
+    <RelativeLayout
+        android:id="@+id/Layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SeekBar
+            android:id="@+id/timerSeekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/currentUserScoreTextView"
+            android:layout_marginTop="32dp"
+            android:padding="16dp"
+            android:tickMarkTint="@android:color/black" />
+
+        <TextView
+            android:id="@+id/pitanjeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timerSeekbar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Pitanje"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/usernameTextViewGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Username"
+            android:textColor="@android:color/black"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/plusScoreTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/gridLayout"
+            android:layout_centerHorizontal="true"
+            android:text="+10"
+            android:textColor="@color/appGreen"
+            android:textSize="64sp"
+            android:visibility="invisible" />
+
+
+        <TextView
+            android:id="@+id/currentUserScoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/usernameTextViewGame"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Current score"
+            android:textColor="@android:color/black"
+            android:textSize="32sp" />
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="64dp"
+            android:padding="32dp"
+            app:columnCount="2"
+            app:rowCount="2">
+
+
+            <Button
+                android:id="@+id/gridButton1"
+                android:layout_width="64dp"
+                android:layout_height="50dp"
+                android:background="#FF4545"
+                android:onClick="checkAnswer"
+                android:tag="0"
+                android:text="1"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/gridButton2"
+                android:layout_width="64dp"
+                android:layout_height="50dp"
+                android:background="#5A68FF"
+                android:onClick="checkAnswer"
+                android:tag="1"
+                android:text="2"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/gridButton3"
+                android:layout_width="64dp"
+                android:layout_height="50dp"
+                android:background="#FFF700"
+                android:onClick="checkAnswer"
+                android:tag="2"
+                android:text="3"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+            <Button
+                android:id="@+id/gridButton4"
+                android:layout_width="64dp"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_purple"
+                android:onClick="checkAnswer"
+                android:tag="3"
+                android:text="4"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+        </androidx.gridlayout.widget.GridLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/insideRelLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/gridLayout"
+        android:layout_centerInParent="true"
+        tools:ignore="NotSibling">
+
+        <TextView
+            android:id="@+id/timerTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="3"
+            android:textColor="#FF5257"
+            android:textSize="64sp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

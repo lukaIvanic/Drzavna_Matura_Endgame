@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragments.HomeFragment">
+
+
+    <ImageView
+        android:id="@+id/matematikaVisa"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="openGradiva"
+        android:src="@drawable/mat_a"
+        android:tag="Mat A"
+        app:layout_constraintBottom_toTopOf="@+id/hrvatskiVisa"
+        app:layout_constraintDimensionRatio="h,28:21"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintWidth_percent="0.45" />
+
+    <ImageView
+        android:id="@+id/hrvatskiNiza"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="openGradiva"
+        android:src="@drawable/hrv_b"
+        android:tag="Hrv B"
+        app:layout_constraintBottom_toTopOf="@+id/engleskiNiza"
+        app:layout_constraintDimensionRatio="h,28:21"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+
+        app:layout_constraintTop_toBottomOf="@+id/matematikaNiza"
+        app:layout_constraintWidth_percent="0.44" />
+
+    <ImageView
+        android:id="@+id/engleskiNiza"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="openGradiva"
+        android:src="@drawable/eng_b"
+        android:tag="Eng B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="h,28:21"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toBottomOf="@+id/hrvatskiNiza"
+        app:layout_constraintWidth_percent="0.44" />
+
+    <ImageView
+        android:id="@+id/engleskiVisa"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="openGradiva"
+        android:src="@drawable/eng_a"
+        android:tag="Eng A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="h,28:21"
+
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toBottomOf="@+id/hrvatskiVisa"
+        app:layout_constraintWidth_percent="0.44" />
+
+    <ImageView
+        android:id="@+id/hrvatskiVisa"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="openGradiva"
+        android:src="@drawable/hrv_a"
+        android:tag="Hrv A"
+        app:layout_constraintBottom_toTopOf="@+id/engleskiVisa"
+        app:layout_constraintDimensionRatio="h,28:21"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toBottomOf="@+id/matematikaVisa"
+        app:layout_constraintWidth_percent="0.44" />
+
+    <ImageView
+        android:id="@+id/matematikaNiza"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="openGradiva"
+        android:src="@drawable/mat_b"
+        android:tag="Mat B"
+        app:layout_constraintBottom_toTopOf="@+id/hrvatskiNiza"
+        app:layout_constraintDimensionRatio="h,28:21"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintWidth_percent="0.44" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.52" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32sp"
+        android:autoSizeMaxTextSize="200sp"
+        android:autoSizeMinTextSize="2sp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/teatral_stencil"
+        android:text="Biraj predmet!"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.115" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.915" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
