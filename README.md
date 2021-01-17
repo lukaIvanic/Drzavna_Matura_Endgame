@@ -10,7 +10,7 @@ Database: Cloud Firestore
 Functionalities: Exams, Studying, Dynamic quizzes, Login, Score system, Forum(Chat),  Search, Leaderboards, Background music, Daily reminder
 
 
-# Exams
+## Exams
 
 The user has the ability to try out an official exam from the previous years. These exams and their questions are inserted in the database manually. There are multiple types of questions which are all compatible with the recycler's adapter. The user can turn the exam in anytime he/she wants and they will get back all the right answers (and their answers if they're wrong). After submiting they can see their grade and an answer button on each question which either gives the answer in the format of a dialog or forwards them to a page in a script (done automatically). The question they didn't answer have added text "Not answered" in them. If a question has an image attached to it, the user can click on it and see it in full screen.
 
