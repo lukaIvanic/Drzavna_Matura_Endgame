@@ -98,7 +98,7 @@ The app plays a lofi song on repeat on all activites. The user can turn on/off m
 
 #1 Add more songs
 
-#2 Find way to not add 30+ MB to the app with each song
+#2 Find a way to not add 30+ MB to the app with each song
 
 
 # Daily reminder
