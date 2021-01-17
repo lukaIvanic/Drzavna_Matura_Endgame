@@ -61,7 +61,7 @@ The user can play a quiz against another user. The questions are randomly picked
 
 Login system using Firebase authentication. The user is automatically logged in after the first login. The user can also change their profile picture at any time. The profile pictures are stored in the Firebase Storage
 
-![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427263896190996/prijava.jpg)
+![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800428725488975912/prijava.jpg)
 ![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427265640890418/registracija.jpg)
 ![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427252608139334/crop.jpg)
 
