@@ -17,7 +17,7 @@ The user has the ability to try out an official exam from the previous years. Th
 //TODO: Image(s)
 
 
-## Exam TODOs:
+### TODOs:
 
 #1 Add a system that automatically adds all the available exams from the previous years.
 
@@ -33,7 +33,7 @@ The user has the ability to try out an official exam from the previous years. Th
 For now there are only scripts available.
 
 
-## Studying TODOs:
+### TODOs:
 
 #1 Add search functionality in the scripts
 
@@ -47,7 +47,7 @@ The user can play a quiz against another user. The questions are randomly picked
 //TODO: IMAGES
 
 
-## Dynamic quizzes TODOs:
+### TODOs:
 
 #1 Add single player quizzes
 
@@ -60,7 +60,7 @@ Login system using Firebase authentication. The user is automatically logged in 
 
 //TODO: PICTURES
 
-## Login TODOs:
+### TODOs:
 
 #1 Give the user an option to turn of automatic login.
 
