@@ -10,14 +10,14 @@ Database: Cloud Firestore
 Functionalities: Exams, Studying, Dynamic quizzes, Login, Score system, Forum(Chat),  Search, Leaderboards, Background music, Daily reminder
 
 
-## Exams
+# Exams
 
 The user has the ability to try out an official exam from the previous years. These exams and their questions are inserted in the database manually. There are multiple types of questions which are all compatible with the recycler's adapter. The user can turn the exam in anytime he/she wants and they will get back all the right answers (and their answers if they're wrong). After submiting they can see their grade and an answer button on each question which either gives the answer in the format of a dialog or forwards them to a page in a script (done automatically). The question they didn't answer have added text "Not answered" in them. If a question has an image attached to it, the user can click on it and see it in full screen.
 
 //TODO: Image(s)
 
 
-# Exam TODOs:
+## Exam TODOs:
 
 #1 Add a system that automatically adds all the available exams from the previous years.
 
@@ -33,7 +33,7 @@ The user has the ability to try out an official exam from the previous years. Th
 For now there are only scripts available.
 
 
-# Studying TODOs:
+## Studying TODOs:
 
 #1 Add search functionality in the scripts
 
@@ -47,7 +47,7 @@ The user can play a quiz against another user. The questions are randomly picked
 //TODO: IMAGES
 
 
-# Dynamic quizzes TODOs:
+## Dynamic quizzes TODOs:
 
 #1 Add single player quizzes
 
@@ -60,7 +60,7 @@ Login system using Firebase authentication. The user is automatically logged in 
 
 //TODO: PICTURES
 
-# Login TODOs:
+## Login TODOs:
 
 #1 Give the user an option to turn of automatic login.
 
@@ -94,7 +94,7 @@ The leaderboards show top 30 users with the highest scores.
 The app plays a lofi song on repeat on all activites. The user can turn on/off music in the settings. 
 
 
-# Background music TODOs:
+## Background music TODOs:
 
 #1 Add more songs
 
