@@ -32,7 +32,7 @@ The user has the ability to try out an official exam from the previous years. Th
 
 For now there are only scripts available.
 
-![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427262469603388/main.jpg)
+![Image of the main screen](https://cdn.discordapp.com/attachments/707574253116981274/800427262469603388/main.jpg)
 
 
 
@@ -59,9 +59,9 @@ The user can play a quiz against another user by creating a room or joining one.
 
 Login system using Firebase authentication. The user is automatically logged in after the first login. The user can also change their profile picture at any time. The profile pictures are stored in the Firebase Storage
 
-![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800428725488975912/prijava.jpg)
-![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427265640890418/registracija.jpg)
-![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427252608139334/crop.jpg)
+![Image of the login page](https://cdn.discordapp.com/attachments/707574253116981274/800428725488975912/prijava.jpg)
+![Image of the registration page](https://cdn.discordapp.com/attachments/707574253116981274/800427265640890418/registracija.jpg)
+![Image of changing the profile picture](https://cdn.discordapp.com/attachments/707574253116981274/800427252608139334/crop.jpg)
 
 ### TODOs:
 
@@ -82,21 +82,21 @@ Every user has his score which will be used for a shop and much more in the futu
 Users have the ability to chat on a single thread.
 
 
-![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427256732319783/komentari.jpg)
+![Image of the user chat](https://cdn.discordapp.com/attachments/707574253116981274/800427256732319783/komentari.jpg)
 
 
 # Search
 
 The user is able to search lessons, curriculums and users all at once. 
 
-![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427269758779442/search.jpg)
+![Image of the search](https://cdn.discordapp.com/attachments/707574253116981274/800427269758779442/search.jpg)
 
 
 # Leaderboards
 
 The leaderboards show top 30 users with the highest scores.
 
-![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427260561063957/leaderboards.jpg)
+![Image of the leaderboards](https://cdn.discordapp.com/attachments/707574253116981274/800427260561063957/leaderboards.jpg)
 
 
 
