@@ -45,7 +45,7 @@ For now there are only scripts available.
 
 # Dynamic quizzes
 
-The user can play a quiz against another user. The questions are randomly picked from a large set of question made with variations of the questions from the exams. The first user to get 5 answers right wins and gains points, while the loser loses points. 
+The user can play a quiz against another user by creating a room or joining one. The questions are randomly picked from a large set of question made with variations of the questions from the exams. The first user to get 5 answers right wins and gains points, while the loser loses points. 
 
 ![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800424517566595072/komentari.jpg)
 
