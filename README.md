@@ -7,7 +7,24 @@ Technologies: Firebase, Firebase Authentication, Firebase Storage
 
 Database: Cloud Firestore
 
-Functionalities: Exams, Studying, Dynamic quizzes, Login, Score system, Forum(Chat),  Search, Leaderboards, Background music, Daily reminder
+Functionalities: Studying, Exams, Dynamic quizzes, Login, Score system, Forum(Chat),  Search, Leaderboards, Background music, Daily reminder
+
+
+
+# Studying
+
+For now there are only scripts available.
+
+![Image of the main screen](https://cdn.discordapp.com/attachments/707574253116981274/800427262469603388/main.jpg)
+
+
+
+### TODOs:
+
+#1 Add search functionality in the scripts
+
+#2 Make individual lessons
+
 
 
 # Exams
@@ -26,21 +43,6 @@ The user has the ability to try out an official exam from the previous years. Th
 #3 Store the users exam attempts and visually represent the best try on the Exams activity
 
 #4 Add comments on individual questions/exams
-
-
-# Studying
-
-For now there are only scripts available.
-
-![Image of the main screen](https://cdn.discordapp.com/attachments/707574253116981274/800427262469603388/main.jpg)
-
-
-
-### TODOs:
-
-#1 Add search functionality in the scripts
-
-#2 Make individual lessons
 
 
 # Dynamic quizzes
