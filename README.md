@@ -3,11 +3,11 @@ Premise -> A coming soon platform for high school students of Croatia. Includes 
 
 Language: Kotlin
 
-Technologies: Firebase
+Technologies: Firebase, Firebase Authentication, Firebase Storage
 
 Database: Cloud Firestore
 
-Functionalities: Exams, Studying, Dynamic quizzes, Login, Search, Leaderboards, Background music, Daily reminder
+Functionalities: Exams, Studying, Dynamic quizzes, Login, Score system, Forum(Chat),  Search, Leaderboards, Background music, Daily reminder
 
 
 # Exams
@@ -36,30 +36,71 @@ For now there are only scripts available.
 # Studying TODOs:
 
 #1 Add search functionality in the scripts
+
 #2 Make individual lessons
 
 
 # Dynamic quizzes
 
-The user can play
+The user can play a quiz against another user. The questions are randomly picked from a large set of question made with variations of the questions from the exams. The first user to get 5 answers right wins and gains points, while the loser loses points. 
+
+//TODO: IMAGES
 
 
+# Dynamic quizzes TODOs:
 
-# TODOs
+#1 Add single player quizzes
 
-
-#1 Upgrade the share functionality so it can share the meme on any platform.
-
-#2 Add the option for the user to choose which subbreddit to get the memes (or general posts) from.
-
-#3 Make the UI less intrusive for the image
+#2 Add option to choose topic (Math, English, Croatian..)
 
 
+# Login 
 
-# VERY optimistic TODOs
+Login system using Firebase authentication. The user is automatically logged in after the first login. The user can also change their profile picture at any time. The profile pictures are stored in the Firebase Storage
 
-#1 Add a search functionality that displays results if matched with text from within the image, title, description, etc..
+//TODO: PICTURES
+
+# Login TODOs:
+
+#1 Give the user an option to turn of automatic login.
+
+#2 An option to use the app as a guest
+
+#3 Add a referral capability
 
 
-# Showcase
-![GIF showcase of the app](https://cdn.discordapp.com/attachments/707574253116981274/800330886003294208/20210117-121117_5.gif)
+# Score system:
+
+Every user has his score which will be used for a shop and much more in the future...
+
+
+# Forum(Chat)
+
+Users have the ability to chat on a single thread.
+
+
+# Search
+
+The user is able to search lessons, curriculums and users all at once. 
+
+
+# Leaderboards
+
+The leaderboards show top 30 users with the highest scores.
+
+
+# Background music
+
+The app plays a lofi song on repeat on all activites. The user can turn on/off music in the settings. 
+
+
+# Background music TODOs:
+
+#1 Add more songs
+
+#2 Find way to not add 30+ MB to the app with each song
+
+
+# Daily reminder
+
+The user has the ability to turn on a daily reminder, which they set the time of themselves.
