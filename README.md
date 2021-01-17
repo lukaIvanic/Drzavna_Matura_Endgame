@@ -102,7 +102,10 @@ The leaderboards show top 30 users with the highest scores.
 
 # Background music
 
-The app plays a lofi song on repeat on all activites. The user can turn on/off music in the settings. 
+The app plays a lofi song on repeat on all activites. The user can turn on/off music in the settings.
+
+
+![Image of settings page](https://cdn.discordapp.com/attachments/707574253116981274/800453482326917141/settings_resize.jpg)
 
 
 ## Background music TODOs:
