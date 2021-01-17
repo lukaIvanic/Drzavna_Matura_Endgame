@@ -14,8 +14,8 @@ Functionalities: Exams, Studying, Dynamic quizzes, Login, Score system, Forum(Ch
 
 The user has the ability to try out an official exam from the previous years. These exams and their questions are inserted in the database manually. There are multiple types of questions which are all compatible with the recycler's adapter. The user can turn the exam in anytime he/she wants and they will get back all the right answers (and their answers if they're wrong). After submiting they can see their grade and an answer button on each question which either gives the answer in the format of a dialog or forwards them to a page in a script (done automatically). The question they didn't answer have added text "Not answered" in them. If a question has an image attached to it, the user can click on it and see it in full screen.
 
-//TODO: Image(s)
-
+![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427262196580392/lista_ispita.jpg)
+![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427254810804305/ispit.jpg)
 
 ### TODOs:
 
@@ -32,6 +32,9 @@ The user has the ability to try out an official exam from the previous years. Th
 
 For now there are only scripts available.
 
+![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427262469603388/main.jpg)
+
+
 
 ### TODOs:
 
@@ -44,7 +47,7 @@ For now there are only scripts available.
 
 The user can play a quiz against another user. The questions are randomly picked from a large set of question made with variations of the questions from the exams. The first user to get 5 answers right wins and gains points, while the loser loses points. 
 
-//TODO: IMAGES
+![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800424517566595072/komentari.jpg)
 
 
 ### TODOs:
@@ -58,7 +61,9 @@ The user can play a quiz against another user. The questions are randomly picked
 
 Login system using Firebase authentication. The user is automatically logged in after the first login. The user can also change their profile picture at any time. The profile pictures are stored in the Firebase Storage
 
-//TODO: PICTURES
+![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427263896190996/prijava.jpg)
+![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427265640890418/registracija.jpg)
+![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427252608139334/crop.jpg)
 
 ### TODOs:
 
@@ -79,14 +84,22 @@ Every user has his score which will be used for a shop and much more in the futu
 Users have the ability to chat on a single thread.
 
 
+![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427256732319783/komentari.jpg)
+
+
 # Search
 
 The user is able to search lessons, curriculums and users all at once. 
+
+![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427269758779442/search.jpg)
 
 
 # Leaderboards
 
 The leaderboards show top 30 users with the highest scores.
+
+![Image of an exam list](https://cdn.discordapp.com/attachments/707574253116981274/800427260561063957/leaderboards.jpg)
+
 
 
 # Background music
