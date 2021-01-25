@@ -67,7 +67,7 @@ Login system using Firebase authentication. The user is automatically logged in 
 
 ### TODOs:
 
-#1 Give the user an option to turn of automatic login.
+#1 Give the user an option to turn off automatic login.
 
 #2 An option to use the app as a guest
 
