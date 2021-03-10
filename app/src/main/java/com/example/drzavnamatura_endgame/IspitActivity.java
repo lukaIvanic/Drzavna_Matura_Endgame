@@ -107,7 +107,6 @@ public class IspitActivity extends AppCompatActivity implements RecyclerAdapterP
         ucitajPitanja();
 
         recyclerAdapterPitanja = new RecyclerAdapterPitanja(arrayList, this, this);
-        recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(recyclerAdapterPitanja);
 
@@ -133,13 +132,21 @@ public class IspitActivity extends AppCompatActivity implements RecyclerAdapterP
                                     0, false,
                                     documentSnapshot.get("metadata").toString()));
                         } else {*/
+                        String url = "";
+                        try {
+                            url  = documentSnapshot.get("url").toString() + "";
+                            
+                        }catch (Exception e){
+                            e.printStackTrace();
+                        }
+                        Log.i("URL", documentSnapshot.get("pitanje").toString());
                             arrayList.add(new Pitanje(documentSnapshot.get("pitanje").toString(),
                                     documentSnapshot.get("odg1").toString(),
                                     documentSnapshot.get("odg2").toString(),
                                     documentSnapshot.get("odg3").toString(),
                                     documentSnapshot.get("odg4").toString(),
                                     Integer.parseInt(documentSnapshot.get("tocanOdgovor").toString()),
-                                    documentSnapshot.get("url").toString(),
+                                    url,
                                     0, false,
                                     documentSnapshot.get("metadata").toString()));
 

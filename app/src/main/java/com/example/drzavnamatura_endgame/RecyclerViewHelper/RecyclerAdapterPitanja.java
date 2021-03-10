@@ -32,17 +32,12 @@ public class RecyclerAdapterPitanja extends RecyclerView.Adapter<RecyclerView.Vi
 
     ArrayList<Pitanje> arrayListPitanja;
     Context context;
-    ArrayList<Boolean> isAnswerChecked;
     private static int OPTIONS_TYPE = 1, INPUT_TYPE = 2;
     onImageListener onImageListener;
 
     public RecyclerAdapterPitanja(ArrayList<Pitanje> arrayListPitanja, Context context, onImageListener onImageListener) {
         this.arrayListPitanja = arrayListPitanja;
         this.context = context;
-        isAnswerChecked = new ArrayList<>();
-        for (Pitanje pitanje : arrayListPitanja) {
-            isAnswerChecked.add(false);
-        }
         this.onImageListener = onImageListener;
     }
 
@@ -109,24 +104,25 @@ public class RecyclerAdapterPitanja extends RecyclerView.Adapter<RecyclerView.Vi
 
                 holder.solution.setVisibility(View.VISIBLE);
 
-                isAnswerChecked.set(holder.getAdapterPosition(), true);
+
+//                    isAnswerChecked.set(position, true);
                 holder.odg1.setBackgroundColor(Color.WHITE);
                 holder.odg2.setBackgroundColor(Color.WHITE);
                 holder.odg3.setBackgroundColor(Color.WHITE);
                 holder.odg4.setBackgroundColor(Color.WHITE);
-                if (arrayListPitanja.get(holder.getAdapterPosition()).getKojiOdgovor() == holder.odg1.getId()) {
+                if (arrayListPitanja.get(position).getKojiOdgovor() == holder.odg1.getId()) {
                     holder.odg1.setBackgroundResource(R.drawable.ic_background_wrong);
-                } else if (arrayListPitanja.get(holder.getAdapterPosition()).getKojiOdgovor() == holder.odg2.getId()) {
+                } else if (arrayListPitanja.get(position).getKojiOdgovor() == holder.odg2.getId()) {
                     holder.odg2.setBackgroundResource(R.drawable.ic_background_wrong);
-                } else if (arrayListPitanja.get(holder.getAdapterPosition()).getKojiOdgovor() == holder.odg3.getId()) {
+                } else if (arrayListPitanja.get(position).getKojiOdgovor() == holder.odg3.getId()) {
                     holder.odg3.setBackgroundResource(R.drawable.ic_background_wrong);
-                } else if (arrayListPitanja.get(holder.getAdapterPosition()).getKojiOdgovor() == holder.odg4.getId()) {
+                } else if (arrayListPitanja.get(position).getKojiOdgovor() == holder.odg4.getId()) {
                     holder.odg4.setBackgroundResource(R.drawable.ic_background_wrong);
                 } else {
                     holder.pitanje.setText(holder.pitanje.getText() + "\n(Nije odgovoreno)");
                 }
 
-                switch (arrayListPitanja.get(holder.getAdapterPosition()).getTocanOdgovor()) {
+                switch (arrayListPitanja.get(position).getTocanOdgovor()) {
                     case 1:
                         holder.odg1.setBackgroundResource(R.drawable.ic_background_right);
                         break;
